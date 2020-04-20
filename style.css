@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body {
+    position: sticky;
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(./res/background.jpg);
+    background-repeat: repeat, no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-family: 'Poppins', sans-serif;
+}
+
+#description {
+    font-size: 1.5rem;
+    color: darkgray;
+    text-align: center;
+}
+
+#title {
+    margin-top: 8rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    color: crimson;
+    font-size: 6rem;
+    font-family: 'Bangers', cursive;
+}
+
+#container {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 1rem;
+}
+
+#survey-form {
+    padding: 3rem 2rem 3rem 2rem;
+    border-radius: 0.7rem;
+    background-color: rgba(220, 20, 60, 0.9);
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: none;
+    margin-bottom: 2rem;
+    border-radius: 0.7rem;
+    height: 2.5rem;
+}
+
+::placeholder {
+    font-size: larger;
+    opacity: 80%;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border: 2px paleturquoise solid;
+    border-radius: 0.7rem;
+}
+
+label {
+    padding-left: 1rem;
+    color: cadetblue;
+    font-size: 2rem;
+    font-family: 'Bangers', cursive;
+}

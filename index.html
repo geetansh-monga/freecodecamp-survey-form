@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freecodecamp - Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main id="container">
+        <div>
+            <h1 id="title">Super Heros Fanbase</h1>
+            <!-- User Story #1: I can see a title with id="title" in H1 sized text. -->
+            <p id="description">
+                <!-- User Story #2: I can see a short explanation with id="description" in P sized text. -->
+                Please fill this form to vote your favourite Super Hero.
+            </p>
+        </div>
+        <div>
+            <form id="survey-form">
+                <!-- User Story #3: I can see a form with id="survey-form". -->
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Name" required>
+                <!-- User Story #4: Inside the form element, I am required to enter my name in a field with id="name". -->
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="E-mail" required>
+                <!-- User Story #5: Inside the form element, I am required to enter an email in a field with id="email". -->
+                <!-- User Story #6: If I enter an email that is not formatted correctly, I will see an HTML5 validation error. -->
+                <label for="number">Mobile (optional)</label>
+                <input type="number" id="number" placeholder="Mobile Number">
+                <!-- User Story #7: Inside the form, I can enter a number in a field with id="number". -->
+                <!-- User Story #8: If I enter non-numbers in the number input, I will see an HTML5 validation error. -->
+                <!-- User Story #9: If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error. -->
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
