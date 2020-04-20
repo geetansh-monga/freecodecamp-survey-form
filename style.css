@@ -38,17 +38,22 @@ body {
 }
 
 input {
+    padding-left: 1rem;
+    font-size: 1.25rem;
     border: none;
     margin-bottom: 2rem;
     border-radius: 0.7rem;
     height: 2.5rem;
 }
 
-::placeholder {
-    font-size: larger;
+input::placeholder {
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font vertical-align: middle;
+    font-weight: 300;
+    font-size: 1.25rem;
     opacity: 80%;
     font-family: 'Poppins', sans-serif;
-    padding-left: 1rem;
 }
 
 input:focus {
@@ -63,3 +68,30 @@ label {
     font-size: 2rem;
     font-family: 'Bangers', cursive;
 }
+
+select {
+    border: none;
+    margin-bottom: 2rem;
+    border-radius: 0.7rem;
+    height: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    padding-left: 1rem;
+    color: grey;
+}
+
+select:focus {
+    animation-direction: reverse;
+    outline: none;
+    border: 2px paleturquoise solid;
+    border-radius: 0.7rem;
+}
+
+option {
+    width: 100%;
+    display: block;
+    font-size: larger;
+    opacity: 80%;
+}
+
+input[type="" i] {}
