@@ -96,7 +96,7 @@ option {
 
 .container-radio {
     display: relative;
-    padding: 0rem 1rem;
+    padding: 0rem 1rem 1rem 1rem;
 }
 
 #radio-button {
@@ -111,7 +111,33 @@ option {
     vertical-align: middle;
 }
 
-input[type="radio" i] {
+input[type="radio" i],
+input[type="checkbox" i] {
     margin: 0px 2px;
     vertical-align: middle;
+}
+
+input[type="checkbox" i] {
+    border-radius: 5rem;
+}
+
+button {
+    font-size: 3rem;
+    font-family: 'Bangers', cursive;
+    opacity: 80%;
+    border: none;
+    border-radius: 1rem;
+    height: auto;
+    width: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    transform: scale(1.2);
 }
