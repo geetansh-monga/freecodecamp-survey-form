@@ -94,4 +94,24 @@ option {
     opacity: 80%;
 }
 
-input[type="" i] {}
+.container-radio {
+    display: relative;
+    padding: 0rem 1rem;
+}
+
+#radio-button {
+    vertical-align: middle;
+}
+
+#radio-button>label {
+    padding: 0px;
+    color: gainsboro;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+
+input[type="radio" i] {
+    margin: 0px 2px;
+    vertical-align: middle;
+}
